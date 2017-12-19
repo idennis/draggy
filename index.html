@@ -17,6 +17,17 @@
     <body>
 
         
+        <div class="box box-1" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <p draggable="true" ondragstart="drag(event)"> Drag me. </p>
+        </div>
+        
+        <div ondrop="drop(event)" ondragover="allowDrop(event)" class="box box-2">
+          <p> Put it in me. </p>
+        </div>
+        
+        <separator></separator>
+        
+        <footer><span class="dennis-hou-logo">Dennis Hou</span></footer>
         
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="js/main.js"></script>
