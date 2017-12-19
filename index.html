@@ -21,7 +21,7 @@
           <li> To make an element draggable, set draggable attribute to true. </li>
           <li> Specify what should happen when the element is dragged with
             onDragStart and setData. </li>
-          <li>  </li>
+          
         </ol>
         
       </div>
@@ -30,8 +30,8 @@
         <p draggable="true" id="drag" ondragstart="drag(event)"> Drag me. </p>
       </div>
       
-      <div ondrop="drop(event)" ondragover="allowDrop(event)" class="box box-2" ondragend="dragFinishes(event)" ondragleave="dragLeaves(event)">
-        <p> Put it in me. </p>
+      <div class="box box-2" ondrop="drop(event)" ondragover="allowDrop(event)" ondragend="dragFinishes(event)" ondragleave="dragLeaves(event)">
+        <p draggable="true" id="drag-2" ondragstart="drag(event)"> Put it in me. </p>
       </div>
       
       <separator></separator>
